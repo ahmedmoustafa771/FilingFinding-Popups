@@ -1,0 +1,52 @@
+.joinus {
+    padding: 3rem;
+    text-align: center;
+
+    h2 {
+        color: #b6000e;
+        border: 2px solid #b6000e;
+        font-size: 1.7rem;
+        padding: 1rem;
+        font-weight: bold;
+        background-color: #eeeeee;
+        margin-bottom: 4rem;
+    }
+
+    &__card {
+        width:90%;
+        padding: 5rem 2rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #b6000e;
+        border: 1px solid #b6000e;
+        border-radius: 2rem;
+        text-align: center;
+        position: relative;
+        margin-bottom: 2rem;
+        cursor: pointer;
+        background-color: #eeeeee;
+
+        &:hover {
+            background-color: #b6000e;
+            color: white;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        color: #8fb95b;
+        top: -10%;
+        left: 92%;
+        font-size: 4rem !important;
+    }
+
+    p {
+        position: absolute;
+        color: white;
+        margin:auto;
+        font-size: 1.5rem;
+        font-weight: bold;
+        top: -7%;
+        left: 98%;
+    }
+}

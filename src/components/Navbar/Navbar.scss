@@ -1,0 +1,27 @@
+.navbar {
+    width: 100%;
+    background: linear-gradient(
+        to bottom,
+        #ededed 0%,
+        #ededed 50%,
+        #ededed 51%,
+        #ededed 100%
+      );
+
+      .nav-link {
+          font-size: 2rem;
+          margin-right: 2rem;
+          color: #b6000e !important;
+          cursor: pointer;
+
+          &:hover {
+              transform: translateY(-1px);
+          }
+      }
+
+      .logo {
+          height: 6rem;
+          margin-right: 2rem;
+          cursor: pointer;
+      }
+}
